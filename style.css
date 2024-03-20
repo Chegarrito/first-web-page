@@ -62,15 +62,23 @@ a {
     font-weight: bolder;
     color: #f9faf8;
     width: 330px;
+    margin: 8px;
 }
 
 .hero-secondary {
     font-size: 18px;
     color: #e5e7eb;
+    margin: 8px;
 }
 
 .button {
     background-color: #3882f6;
+    border-radius: 12px;
+    padding: 8px 16px;
+    border: 0px;
+    color: #f9faf8;
+    margin: 8px;
+
 }
 .dog {
     display: flex;
