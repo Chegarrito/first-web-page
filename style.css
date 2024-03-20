@@ -1,0 +1,81 @@
+@font-face {
+    font-family: Roboto;
+    src: url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+}
+
+* {
+    margin: 0;  
+    font-family: Roboto;
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+}
+
+.nav-bar {
+    background-color: #1f2937;
+    color: white;
+    display: flex;
+    align-items: center;
+    height: 75px;
+    justify-content: flex-start;
+}
+
+.header-logo {
+    display: flex;
+    margin-left: 16px;
+    font-size: 24px;
+    color: #f9faf8;
+    margin-left: 64px;
+}
+.nav-links {
+    display: flex;
+    margin-left: auto;
+    margin-right: 64px;
+}
+
+a {
+    text-decoration: none;
+    padding: 0px 16px;
+    font-size: 18px;
+    color: #e5e7eb; 
+    font-size: 18px;
+}
+
+.hero {
+    background-color: #1f2937;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly; 
+    padding: 32px;
+}
+
+.container {
+    margin: 64px;
+    display: flex;
+    width: 464px;
+    flex-wrap: wrap;
+}
+.hero-main {
+    font-size: 48px;
+    font-weight: bolder;
+    color: #f9faf8;
+    width: 330px;
+}
+
+.hero-secondary {
+    font-size: 18px;
+    color: #e5e7eb;
+}
+
+.button {
+    background-color: #3882f6;
+}
+.dog {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 16px 64px;
+
+}
