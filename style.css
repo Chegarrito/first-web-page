@@ -154,7 +154,7 @@ a {
     display: flex;
     justify-content: center;
     align-items: center;
-    margin: 64px;
+    margin: 128px;
 }
 
 .blue-background {
@@ -162,7 +162,7 @@ a {
     color: #f9faf8;
     border-radius: 12px;
     width: 850px;
-    padding: 32px 128px;
+    padding: 50px 128px;
     display: flex;
     align-items: center;
     flex-direction: flex;
