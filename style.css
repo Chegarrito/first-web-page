@@ -149,3 +149,40 @@ a {
     font-weight: 800;
     font-style: normal;
 }
+
+.sign-section {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 64px;
+}
+
+.blue-background {
+    background-color: #3882f6;
+    color: #f9faf8;
+    border-radius: 12px;
+    width: 850px;
+    padding: 32px 128px;
+    display: flex;
+    align-items: center;
+    flex-direction: flex;
+}
+
+.blue-background .button {
+    border: solid 2px #f9faf8;
+    border-radius: 12px;
+    color: #f9faf8;
+    margin-left: auto;
+    flex-wrap: nowrap;
+}
+.text {
+    margin-right: 32px;
+}
+.call {
+    font-weight: 700;
+    font-size: 24px;
+}
+
+.sign-up {
+    font-weight: 300;
+}
